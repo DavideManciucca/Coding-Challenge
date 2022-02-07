@@ -1,0 +1,59 @@
+body{
+  margin-right: 200px;
+  margin-left: 200px;
+  background-image: url(background.jpg);
+  background-size: cover;
+
+}
+.container{
+   background-color: rgb(83,83,83);
+   background-color: rgba(83,83,83,0.50);
+   border-radius: 30px;
+   padding: 50px;
+}
+
+main{
+  color: white;
+  line-height: 20px;
+}
+
+header{
+  text-align: center;
+  color: lime;
+}
+
+nav{
+  padding: 10px;
+  text-align: center;
+  background: lime
+}
+
+.paragrafo{
+  font-size: 25px;
+  color: white;
+}
+
+.corpo-paragrafo::before {
+  content: "\21A6";
+}
+
+
+.stato-carica1{
+  background-color: orange;
+  padding: 20px;
+  margin-right: 50%;
+  border-radius: 10px;
+}
+
+.stato-carica2{
+  background-color: lime;
+  padding:20px;
+  margin-right: 20%;
+  border-radius: 10px;
+}
+.stato-carica3{
+  background-color: red;
+  padding:20px;
+  margin-right: 80%;
+  border-radius: 10px;
+}
